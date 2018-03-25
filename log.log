@@ -1,0 +1,4 @@
+[2018-03-25 04:51:07] DatabaseConnectLog.ERROR: Erro com a conexão com o banco de dados. Erro:SQLSTATE[HY000] [14] unable to open database file [] []
+[2018-03-25 04:53:24] DatabaseConnectLog.ERROR: Erro com a conexão com o banco de dados. Erro:SQLSTATE[HY000] [14] unable to open database file [] []
+[2018-03-25 13:52:38] DatabaseConnectLog.ERROR: Erro com a conexão com o banco de dados. Erro:SQLSTATE[HY000] [14] unable to open database file [] []
+[2018-03-25 13:56:38] DatabaseConnectLog.ERROR: Erro com a conexão com o banco de dados. Erro:SQLSTATE[HY000] [14] unable to open database file [] []

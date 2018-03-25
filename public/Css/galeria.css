@@ -1,0 +1,34 @@
+/* layout */
+.navbar {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 .25rem .75rem rgba(245, 50, 50, 0.05);
+}
+.content-area {
+  text-align: center
+}
+footer {
+  text-align: center
+}
+
+/* galeria */
+.links {
+  min-height: 450px
+}
+.content-area img {
+  margin:2px;
+  vertical-align: middle;
+  height: 140px;
+  width:180px;
+  object-fit: cover
+}
+.image-container{
+  display:inline-block;
+  position: relative
+}
+a {
+  text-decoration: none
+}
+.blueimp-gallery-controls a {
+  color: #ffffff !important
+}

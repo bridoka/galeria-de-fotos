@@ -1,0 +1,31 @@
+version: '2'
+services:
+  # Application
+  app:
+    container_name: galeria_php
+    build:
+      context: ./
+      dockerfile: app.dockerfile
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+
+  # Web Server
+  web:
+    container_name: galeria_nginx
+    build:
+      context: ./
+      dockerfile: web.dockerfile
+    working_dir: /var/www
+    volumes_from:
+      - app
+    ports:
+      - 80:80
+
+  # Composer
+  composer:
+    restart: 'no'
+    image: composer/composer:php7
+    command: install
+    volumes:
+      - .:/app

@@ -1,0 +1,5 @@
+/.idea
+/vendor
+composer.lock
+/public/Images/*
+!/public/Images/.gitkeep

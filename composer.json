@@ -1,0 +1,19 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "phpunit/phpunit": "6.5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "App\\Database\\DatabaseCreate::createTablesDatabase",
+            "chmod 777 public/Images",
+            "chmod 777 db",
+            "chmod 777 db/db.sqlite3"
+        ]
+    }
+}
